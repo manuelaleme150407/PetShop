@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TMJ Petz - Serviços</title>
+  <link rel="stylesheet" href="../src/styles/index.css">
+</head>
+<body>
+
+  <header>
+    <img src="./assets/Logo.png" alt="" id="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="services.html">Serviços</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="services" class="services-section">
+    <h1>Nossos Serviços</h1>
+    <h2>Confira os serviços que oferecemos para o seu pet!</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <img src="https://centralpet.vet.br/paineladm/wp-content/uploads/2022/09/Como-tornar-o-dia-do-banho-e-tosa-mais-prazeroso-e-eficaz.jpg" alt="Banho">
+        <h3>Banho</h3>
+        <p>Banho relaxante para seu pet ficar limpinho e cheiroso.</p>
+        <p><strong>Preço:</strong> R$ 50,00</p>
+        <p><strong>Benefícios:</strong> Ambiente com climatização, produtos hipoalergênicos.</p>
+        <button class="btn-agendar">Agendar Agora</button>
+      </div>
+      <div class="service-card">
+        <img src="https://blog.cobasi.com.br/wp-content/uploads/2020/09/banho-tosa.png" alt="Tosa">
+        <h3>Tosa</h3>
+        <p>Tosas higiênicas e estilizadas com profissionais experientes.</p>
+        <p><strong>Preço:</strong> R$ 60,00</p>
+        <p><strong>Benefícios:</strong> Estilo personalizado, corte adequado ao tipo de pelagem.</p>
+        <button class="btn-agendar">Agendar Agora</button>
+      </div>
+      <div class="service-card">
+        <img src="https://www.petz.com.br/blog/wp-content/uploads/2017/02/shutterstock_304482737.jpg" alt="Corte de Unhas">
+        <h3>Corte de Unhas</h3>
+        <p>Segurança e conforto para as patinhas do seu pet.</p>
+        <p><strong>Preço:</strong> R$ 30,00</p>
+        <p><strong>Benefícios:</strong> Manutenção regular, evitamos cortes e ferimentos.</p>
+        <button class="btn-agendar">Agendar Agora</button>
+      </div>
+      <div class="service-card">
+        <img src="https://wp-prod-images.simples.vet/wp-content/uploads/2023/01/Como-montar-um-hotel-para-cachorro.png" alt="Hotel">
+        <h3>Hotel</h3>
+        <p>Deixe seu pet em um ambiente seguro e confortável enquanto você viaja.</p>
+        <p><strong>Preço:</strong> R$ 120,00/dia</p>
+        <p><strong>Benefícios:</strong> Ambiente climatizado, alimentação balanceada, monitoramento 24h.</p>
+        <button class="btn-agendar">Agendar Agora</button>
+      </div>
+      <div class="service-card">
+        <img src="https://img.freepik.com/fotos-gratis/close-no-veterinario-cuidando-do-cachorro_23-2149100190.jpg" alt="Consulta Veterinária">
+        <h3>Consulta Veterinária</h3>
+        <p>Cuide da saúde do seu pet com uma consulta especializada.</p>
+        <p><strong>Preço:</strong> R$ 80,00</p>
+        <p><strong>Benefícios:</strong> Diagnóstico preciso, tratamento adequado, acompanhamento.</p>
+        <button class="btn-agendar">Agendar Agora</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TMJ Petz</p>
+    <p>Contato: (15) 99999-9999 | clientes@tmjpetz.com.br</p>
+    <p>Endereço: Avenida Paulista, 123 - São Paulo</p>
+  </footer>
+
+  <style>
+    .services-section {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #e5d9ff;
+    }
+    .services-section h1 {
+      font-size: 50px;
+      color: #2a1f4d;
+      margin-bottom: 20px;
+    }
+    .services-section h2 {
+      font-size: 24px;
+      color: #4a3d75;
+      margin-bottom: 40px;
+    }
+    .services-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .service-card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    }
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .service-card h3 {
+      margin: 15px 0;
+      font-size: 22px;
+      color: #2a1f4d;
+    }
+    .service-card p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    .btn-agendar {
+      background-color: #4a3d75;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .btn-agendar:hover {
+      background-color: #2a1f4d;
+    }
+  </style>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TMJ Petz - Home</title>
+  <link rel="stylesheet" href="../src/styles/index.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="./assets/Logo.png" alt="" id="logo">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Home / Banner -->
+  <section id="home" class="container">
+    <div class="banner">
+      <h1>tmj PETZ</h1>
+      <h2>Juntos no cuidado com seu pet!</h2>
+      <p>Oferecemos banho relaxante, tosa higiênica e estilizada, corte de unhas, vacinação, consulta veterinária e hospedagem em nosso hotel pet. Tudo realizado com carinho, segurança e profissionais especializados, garantindo que seu pet receba os melhores cuidados para ficar saudável, lindo e feliz!</p>
+      <button onclick="window.location.href='#services'">Conheça nossos serviços</button>
+    </div>
+
+    <img src="https://jpimg.com.br/uploads/2024/11/8-dicas-para-fortalecer-o-vinculo-com-o-cachorro.jpg" alt="Imagem de um pet" class="banner-img">
+  </section>
+
+  <!-- Seção de Boas-vindas -->
+  <section class="welcome container-column">
+    <div class="img">
+    <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/07/vida-de-gato.jpg" alt="">
+  </div>
+    <div class="content-welcome">
+    <h2>Bem-vindo ao tmj PETZ!</h2>
+    <p>Aqui, seu pet recebe cuidado de verdade! Somos apaixonados por animais e oferecemos serviços de banho, tosa, corte de unhas e muito mais, sempre com carinho e atenção que seu melhor amigo merece. Nossa equipe é formada por profissionais experientes que garantem segurança, conforto e aquele trato especial para deixar seu pet ainda mais feliz e saudável</p>
+    <button onclick="window.location.href='#about'">Saiba mais sobre nós</button>
+  </div>
+  </section>
+
+  <!-- Seção Slider de Serviços -->
+<section id="services" class="slider-section">
+  <h2>Nossos Serviços</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://centralpet.vet.br/paineladm/wp-content/uploads/2022/09/Como-tornar-o-dia-do-banho-e-tosa-mais-prazeroso-e-eficaz.jpg" alt="Banho" />
+        <h3>Banho</h3>
+        <p>Banhos especiais para seu pet ficar limpinho e cheiroso</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://blog.cobasi.com.br/wp-content/uploads/2020/09/banho-tosa.png" alt="Tosa" />
+        <h3>Tosa</h3>
+        <p>Tosas estilosas com profissionais especializados</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.petz.com.br/blog/wp-content/uploads/2017/02/shutterstock_304482737.jpg" alt="Corte de Unhas" />
+        <h3>Corte de Unhas</h3>
+        <p>Cuide da saúde das patinhas do seu pet com segurança</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://img.freepik.com/fotos-gratis/close-no-veterinario-cuidando-do-cachorro_23-2149100190.jpg" alt="Consulta Veterinária" />
+        <h3>Consulta Veterinária</h3>
+        <p>Atendimento especializado para garantir o bem-estar do seu pet</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_9NF0HHEiGUfriexMpX90bxBy4VK0MAFqQ&s" alt="Vacinação" />
+        <h3>Vacinação</h3>
+        <p>Proteja seu pet com vacinas essenciais para uma vida longa e saudável</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://wp-prod-images.simples.vet/wp-content/uploads/2023/01/Como-montar-um-hotel-para-cachorro.png" alt="Hotel" />
+        <h3>Hotel</h3>
+        <p>Hospedagem confortável e segura para o seu pet enquanto você viaja</p>
+      </div>
+    </div>
+    <!-- Adicionando os botões de navegação -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 TMJ Petz</p>
+    <p>Contato: (15) 99999-9999 | clientes@tmjpetz.com.br</p>
+    <p>Endereço: Avenida Paulista, 123 - São Paulo</p>
+  </footer>
+    
+  <!-- SwiperJS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="../src/scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Pet Shop</title>
+    <link rel="stylesheet" href="../src/styles/about.css">
+</head>
+<body>
+
+  <header>
+    <img src="./assets/Logo.png" alt="TMJ Petz Logo" id="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="services.html">Serviços</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+    <section class="sobre-nos">
+        <div class="container">
+            <div class="imagens">
+                <div class="imagem-cao-fundo">
+                    <div class="imagem-cao"> <img src="../src/imagens/cachorro.png" alt=""></div>
+                </div>
+        
+                <!-- Fundo do gato + gato -->
+                <div class="imagem-gato-fundo">
+                    <div class="imagem-gato"><img src="../src/imagens/gatinho.png" alt=""></div>
+                </div>
+            </div>
+            <div class="conteudo">
+                <p class="destaque">Mais do que um pet shop, somos uma família apaixonada por cuidar do seu melhor amigo!</p>
+                <p class="historia">Fundado em 2017, nosso pet shop nasceu do amor pelos animais e do desejo de oferecer os melhores cuidados para eles. Nosso compromisso é garantir saúde, bem-estar e felicidade para todos os pets que passam por aqui.</p>
+                <ul>
+                    <li><svg class="check" width="40" height="40" viewBox="0 0 40 40">
+                        <!-- Círculo com um espaço "cortado" -->
+                        <circle cx="20" cy="20" r="18" stroke="#5f35b1" stroke-width="4" fill="none"
+                            stroke-dasharray="80 30 80 0" stroke-linecap="round"/>
+                        
+                        <!-- Check -->
+                        <polyline points="12,20 18,28 30,12" stroke="#5f35b1" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg> Ambiente seguro e confortável</li>
+                    <li><svg class="check" width="40" height="40" viewBox="0 0 40 40">
+                        <!-- Círculo com um espaço "cortado" -->
+                        <circle cx="20" cy="20" r="18" stroke="#5f35b1" stroke-width="4" fill="none"
+                            stroke-dasharray="80 30 80 0" stroke-linecap="round"/>
+                        
+                        <!-- Check -->
+                        <polyline points="12,20 18,28 30,12" stroke="#5f35b1" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg> Atendimento personalizado</li>
+                    <li><svg class="check" width="40" height="40" viewBox="0 0 40 40">
+                        <!-- Círculo com um espaço "cortado" -->
+                        <circle cx="20" cy="20" r="18" stroke="#5f35b1" stroke-width="4" fill="none"
+                            stroke-dasharray="80 30 80 0" stroke-linecap="round"/>
+                        
+                        <!-- Check -->
+                        <polyline points="12,20 18,28 30,12" stroke="#5f35b1" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg> Equipe qualificada e apaixonada por animais</li>
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    <div class="backgound-da-faixa"> 
+        <div class="faixa-roxa">
+
+            <!-- Novo texto à direita -->
+            <div class="texto-faixa">Conheça mais sobre nós e o nosso amor e dedicação para oferecer o melhor para o seu pet!
+            <!-- Botão de "Assista Agora" à esquerda -->
+            <div class="botao-play" onclick="abrirVideo()">
+                <div class="circulo-play">▶</div>
+                <span class="texto-play">Assista agora!</span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="modalVideo" class="modal">
+        <div class="modal-content">
+            <span class="fechar" onclick="fecharVideo()">&times;</span>
+            <iframe id="meuVideo" width="560" height="315" 
+            src="https://www.youtube.com/embed/hPa_ynCO9SI?autoplay=1" 
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        
+        </div>
+    </div>
+    
+    <section class="noticias">
+        <h1>MAIS SOBRE O MUNDO PET:</h1>
+        <p class="sobre-noticias">Um fato sobre nós: <b>amamos o estudo e a divulgação de informações e conhecimentos</b>, por esse motivos divulgamos alguns estudos e notícias para que você posso oferecer o melhor cuidado e carinho ao seu pet, dessa forma ele irá ter suas necessidades saciadas e vocês viverão uma linda e longa história!</p>
+    
+        <div class="container">
+            <!-- Notícia principal -->
+            <div class="noticia-principal">
+                <img src="../src/imagens/quais-frutas-cachorro-pode-comer.webp" alt="Imagem principal">
+                <p class="titulo">Saiba quais alimentos seu animalzinho pode ou não inserir</p>
+                <a href="https://www.lavizoo.com.br/post/7203/20-alimentos-proibidos-para-caes-guia-completo" class="botao"><span>➜</span></a>
+            </div>
+    
+            <!-- Lista de outras notícias -->
+            <div class="outras-noticias">
+                <div class="noticia">
+                    <a href="https://www.petz.com.br/blog/bem-estar/cachorro-precisa-passear/">
+                        <img src="../src/imagens/Por-que-passeio-é-tão-importante-1024x683.webp" alt="Imagem notícia 1">
+                        <div>
+                            <p class="titulo-menor">Conheça os benefícios do passeio</p>
+                            <p>Seu pet passeia diariamente? Saiba ...</p>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="noticia">
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiuvqesurCMAxV0PbkGHfqMIUQQFnoECBwQAw&url=https%3A%2F%2Fwww.zooplus.pt%2Fmagazine%2Fgatos%2Fadestramento-de-gatos%2Fa-socializacao-de-gatos%23%3A~%3Atext%3DNo%2520caso%2520dos%2520gatos%252C%2520a%2Ccaixa%2520transportadora%2520n%25C3%25A3o%2520%25C3%25A9%2520mau.&usg=AOvVaw2Mh1w2zpY0jddU2Tr7pEpI&opi=89978449">
+                        <img src="../src/imagens/dicas-para-melhor-socializacao-de-gatos-6751e390b9b13.webp" alt="Imagem notícia 2">
+                        <div>
+                            <p class="titulo-menor">A socialização entre gatos e sua importância</p>
+                            <p>Você sabe como socializar seu pet ...</p>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="noticia">
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi-kMjDu7CMAxUfq5UCHUcbIdYQFnoECCMQAQ&url=https%3A%2F%2Flove.doghero.com.br%2Ftreinamento%2Fadestramento-de-caes%2F&usg=AOvVaw3KjITzlEBKYxBWaBQMUz2Q&opi=89978449">
+                        <img src="../src/imagens/adestramento3.jpg" alt="Imagem notícia 3">
+                        <div>
+                            <p class="titulo-menor">A prática do adestramento: Como fazer?</p>
+                            <p>Adestrar seu animalzinho é muito ...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 TMJ Petz</p>
+      <p>Contato: (15) 99999-9999 | clientes@tmjpetz.com.br</p>
+      <p>Endereço: Avenida Paulista, 123 - São Paulo</p>
+    </footer>
+
+    <script>
+        let player;
+
+        function abrirVideo() {
+            document.getElementById("modalVideo").style.display = "flex";
+
+            // Carregar a API do YouTube
+            const script = document.createElement("script");
+            script.src = "https://www.youtube.com/iframe_api";
+            document.body.appendChild(script);
+        }
+
+        function fecharVideo() {
+            document.getElementById("modalVideo").style.display = "none";
+
+            // Pausar o vídeo
+            if (player) {
+                player.pauseVideo();
+            }
+        }
+
+        // A função abaixo será chamada quando a API do YouTube estiver carregada
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player("meuVideo", {
+                events: {
+                    "onReady": function(event) {
+                        // Video carregado, nada a fazer
+                    }
+                }
+            });
+        }
+
+
+    </script>
+    
+    
+</body>
+</html>
